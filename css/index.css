@@ -1,0 +1,110 @@
+header{
+    height: 85px;
+    background-size: auto;
+    background-repeat: no-repeat;
+
+}
+.serieFjallbacka{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.camillaLackberg{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+h1{
+    color:#0c0c0c;
+    font-size: 70px;
+}
+
+h2{
+    color:#0c0c0c;
+    font-size: 40px;
+}
+.greenLine{
+    background-color: #198754;
+}
+/* .bookIcon{
+    background-color: #198754;
+    background-size: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+} */
+
+body {
+    font-family: montserrat;
+    margin: 0;
+    padding: 0;
+    background: url(https://images.pexels.com/photos/220182/pexels-photo-220182.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);   
+    background-size: 1000px;
+    background-position: center;
+    
+}
+
+.cardsBooks{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card{
+    margin-bottom: 15px;
+    margin: 15px;
+    border-width: 15px;
+    border-color: #198754;
+}
+.card-title{
+    display: flex;
+    justify-content: center;
+}
+.cardTitle{
+    color: #198754;
+}
+.author{
+    font-size: medium;
+}
+.genre{
+    font-size: medium;
+}
+.publicationYear{
+    font-size: medium;
+}
+
+/* Boton de resumen */
+details{
+    background: #198754;
+    padding: 0.5rem;
+    border-radius: 6px;
+    margin: .5rem;
+    cursor: pointer;
+
+} 
+summary{
+    list-style: none;
+}
+summary::before{
+    content: '➕';
+    padding-right: 1rem;
+}
+details[open] summary::before{
+    content: '➖';
+}
+
+/* Boton de comprar */
+.buyIt{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+footer{
+    background-color: #198754;
+    height: 85px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
