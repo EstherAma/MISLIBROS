@@ -22,7 +22,7 @@ fetchBooksJson().then(books =>{
             let yearPublication=books.misLibros[index].añoDePublicacion;
 
         booksSection.innerHTML += `
-            <div class="card" style="width: 22rem;">
+            <div class="card" style="width: 23rem;">
                 <img src="${img}" class="card-img-top" alt="Portada del libro">
                 <div class="card-body">
                     <h4 class="card-title cardTitle">${id}. ${title}</h4>
