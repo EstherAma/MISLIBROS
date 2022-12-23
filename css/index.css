@@ -1,45 +1,65 @@
+.bookIcon{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:center;
+}
+
 header{
     height: 85px;
     background-size: auto;
     background-repeat: no-repeat;
-
+    background-color: #b2b2b2;
+    opacity: 80%;
 }
+
 .serieFjallbacka{
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
+    background-color: #b2b2b2;
+    opacity: 80%;
 }
+
 .camillaLackberg{
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
+    background-color: #b2b2b2;
+    opacity: 80%;
 }
+
 h1{
-    color:#0c0c0c;
+    color: #faf9f9;
     font-size: 70px;
+    transition: all 300ms ease;
+}
+
+h1:hover{
+    color: black
 }
 
 h2{
-    color:#0c0c0c;
+    color: rgb(4, 4, 4);
     font-size: 40px;
+    transition: all 300ms ease;
 }
-.greenLine{
-    background-color: #198754;
+
+h2:hover{
+    color: white
 }
-/* .bookIcon{
-    background-color: #198754;
-    background-size: auto;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-} */
+
+.greyLine{
+    background-color: #3b3d3c;
+    height: 50px;
+    margin-bottom: 50px;
+}
 
 body {
     font-family: montserrat;
     margin: 0;
     padding: 0;
     background: url(https://images.pexels.com/photos/220182/pexels-photo-220182.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);   
-    background-size: 1000px;
+    background-size:auto;
     background-position: center;
     
 }
@@ -48,35 +68,41 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content:space-around;
+    font-size: 10px;
 }
 
 .card{
     margin-bottom: 15px;
-    margin: 15px;
-    border-width: 15px;
-    border-color: #198754;
+    margin: 10px;
+    border-width: 20px;
+    border-color: #3b3d3c;
 }
+
 .card-title{
     display: flex;
     justify-content: center;
 }
+
 .cardTitle{
-    color: #198754;
+    color: #3b3d3c;
 }
+
 .author{
     font-size: medium;
 }
+
 .genre{
     font-size: medium;
 }
+
 .publicationYear{
     font-size: medium;
 }
 
 /* Boton de resumen */
 details{
-    background: #198754;
+    background: #dde0de;
     padding: 0.5rem;
     border-radius: 6px;
     margin: .5rem;
@@ -86,10 +112,12 @@ details{
 summary{
     list-style: none;
 }
+
 summary::before{
     content: '➕';
     padding-right: 1rem;
 }
+
 details[open] summary::before{
     content: '➖';
 }
@@ -101,10 +129,77 @@ details[open] summary::before{
     flex-direction: column;
 }
 
-footer{
-    background-color: #198754;
-    height: 85px;
+.footer{
+    background-color: #b2b2b2;
+    width: 100%;
+}
+
+.footer .group1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+    margin-top: 50px;
+}
+
+.footer .group1 .box figure{
+    width: 100%;
+    height: 100%;
     display: flex;
-    flex-wrap: nowrap;
     justify-content: center;
+    align-items: center;
+}
+
+.footer .group1 .box figure img{
+    width: 210px;
+}
+
+.footer .group1 .box h3{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.footer .group1 .box p{
+    color: #212121;
+    margin-bottom: 16px;
+}
+
+.footer .group1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 10px;
+    height: 20px;
+    line-height: 20px;
+    color: #212121;
+    margin-right: 10px;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.footer .group1 .red-social a:hover{
+    color: white;
+    
+}
+.footer .group2{
+    background-color: #0a1a2a;
+    padding: 20px 10px;
+    text-align: center;
+    color: #fff
+    
+    
+    
+}
+
+@media screem and (max-width:1400px){
+    .footer .group1{
+        width: 90%;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    
+    }
 }

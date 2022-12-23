@@ -12,6 +12,6 @@
   "scripts": {
     "test": "jest"
   },
-  "author": "Jose Miguel Quesada",
+  "author": "Esther de Luque",
   "license": "ISC"
 }
