@@ -24,13 +24,13 @@
 <h2>4. Project Demo</h2>
 
 <p>For live version of the project, run the code with Live Server in Visual Studio Code.</p>
++
 <h2>5. Initial Designs (Screenshots)</h2>
 
 <image src="![image](https://user-images.githubusercontent.com/116546625/209240155-eeea9c13-90f9-4992-a70b-b1fb95eeea11.png)"/>;
-
 <div style="heigth:auto; display:flex; flex-wrap:wrap; justify-content:center; padding:1rem">
-
 <img style="width:1000px;" src="![image](![image](http://127.0.0.1:5500/index.html))" alt="libros"/>
+</div>  
 
 <h2>6. Stacks</h2>
 
