@@ -27,10 +27,7 @@
 
 <h2>5. Initial Designs (Screenshots)</h2>
 
-<image src="![image](https://user-images.githubusercontent.com/116546625/209240155-eeea9c13-90f9-4992-a70b-b1fb95eeea11.png)"/>;
-<div style="heigth:auto; display:flex; flex-wrap:wrap; justify-content:center; padding:1rem">
-<img style="width:1000px;" src="![image](![image](http://127.0.0.1:5500/index.html))" alt="libros"/>
-</div>  
+[![Captura-de-pantalla.png](https://i.postimg.cc/YCzzvBLc/Captura-de-pantalla.png)](https://postimg.cc/184qdTKM)
 
 <h2>6. Stacks</h2>
 
