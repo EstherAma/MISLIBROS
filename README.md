@@ -24,7 +24,7 @@
 <h2>4. Project Demo</h2>
 
 <p>For live version of the project, run the code with Live Server in Visual Studio Code.</p>
-+
+
 <h2>5. Initial Designs (Screenshots)</h2>
 
 <image src="![image](https://user-images.githubusercontent.com/116546625/209240155-eeea9c13-90f9-4992-a70b-b1fb95eeea11.png)"/>;
@@ -65,9 +65,15 @@
   <li>From here we begin to create the folder:<br>Open the Visual Studio Code, to install the neccesary dependencies, and in the terminal run and install:</li>
     <ul>
       <li>Install dependencies: <strong>npm install</strong>command.</li>
-      <li>Start the server: json-server(strong>npm install -g json-server</strong>command).</li>
-    </ul>  
-</ol>
+      <li>Start the server: json-server(<strong>npm install -g json-server</strong> command).</li>
+      <li>To run the server follow these steps:</li>
+          <ul>
+            <li>With the <strong>ls</strong> command, we see which folder we are in.</li>
+            <li>We change to the /json folder, in case we are not in this folder, with the command <strong>cd json/</strong><br>I check that I am in the correct folder: <strong>misLibros.json</strong></li>
+            <li>From here, I launch my server, using the command:<strong>json-server --watch misLibros.json</strong></li>
+          </ul>
+       </ul>   
+ </ol>
 
 <h2>8. Methodology:</h2>
 <ul>
